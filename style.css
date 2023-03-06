@@ -1,0 +1,149 @@
+body{
+    font-family: Hero, sans-serif;
+    margin: 0;  
+    background-color: #181823;
+}
+
+.header{
+    background-color: #181823;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 16px;
+}
+
+.logo{
+    display: flex;
+    align-self: center;
+    margin: 16px;
+}
+
+a{
+    color:#C0EEF2 ;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.links{
+    display: flex;
+    align-self: flex-start;
+    flex-shrink: 0;
+    gap: 32px;
+    margin-right: 16px;
+}
+
+.container{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    margin: 16px;
+}
+
+.title, .about, .special{
+    color:#537FE7 ;
+}
+
+button{
+    color:#E9F8F9 ;
+    background-color: #537FE7;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 12px;
+    margin: 8px;
+    padding: 12px;
+    max-width: 150px;
+}
+
+.title{
+    font-size: 48px;
+    margin: 8px;
+}
+
+.about{
+    font-size: 16px;
+    margin: 8px;
+}
+
+.special{
+    display: flex;
+    font-size: 48px;
+    justify-content: center;
+    /* border: 8px solid #C0EEF2 ;   */
+    margin: 32px;
+    padding:16px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 16px;   
+}
+
+.indiv-product{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    max-width: 200px;
+    padding: 16px;
+    border: 8px solid #C0EEF2 ;     
+}
+
+.quote-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    background-color: #181823;
+    border:32px solid #C0EEF2;
+}
+
+.testimonial{
+    font-size: 36px;
+    font-style: italic;
+    color: #E9F8F9;
+    padding: 80px;
+    max-width: 800px;
+}
+
+.sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-text{
+    font-size: 36px;
+    color: #E9F8F9;
+    padding: 80px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.footer-img{
+    margin: 8px;
+    margin-left: 24px;
+}
+
+.footer-text{
+    font-size: 24px;
+    color: #E9F8F9;
+    margin-right: 24px;
+}
+
+
+/* possible color scheme
+#537FE7
+#C0EEF2
+#E9F8F9 */
